@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `EC Synthetic Services`,
+    description: `Source code for ecsyntheticservices.com`,
+    author: `Alexis Ortiz Ojeda`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,6 +29,15 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
