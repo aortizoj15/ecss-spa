@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ec-synthetic-services",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Source code for ecsyntheticservices.com",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alexis Ortiz Ojeda [aortizoj15@gmail.com]",
   "dependencies": {
     "gatsby": "^3.3.1",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
