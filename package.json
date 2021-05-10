@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Alexis Ortiz Ojeda [aortizoj15@gmail.com]",
   "dependencies": {
+    "@fontsource/open-sans": "^4.2.2",
     "autoprefixer": "^10.2.5",
     "gatsby": "^3.3.1",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
@@ -14,11 +15,13 @@
     "gatsby-plugin-react-helmet": "^4.2.0",
     "gatsby-plugin-sass": "^4.4.0",
     "gatsby-plugin-sharp": "^3.2.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
     "sass": "^1.32.12",
     "tailwindcss": "^2.1.2"
