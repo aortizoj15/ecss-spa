@@ -1,4 +1,4 @@
-This repository contains the source code for [EC Synthetic Services](www.ecsyntheticservices.com).
+This repository contains the source code for [EC Synthetic Services](https://ecsyntheticservices.com/).
 
 Built using technologies including:
 
