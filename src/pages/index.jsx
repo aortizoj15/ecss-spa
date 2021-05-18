@@ -117,19 +117,19 @@ const IndexPage = () => (
         <div className="flex flex-col justify-around mb-4 ">
           <Mail className="w-6 h-6 md:w-8 md:h-8 mx-auto mb-2" />
           <hr className="w-1/2 md:w-full m-auto bg-white my-2" />
-          <p className="m-0 md:text-lg">ecsyntheticservices@gmail.com</p>
+          <p className="m-0 md:text-lg hover:underline"><a href="mailto:ecsyntheticservices@gmail.com">ecsyntheticservices@gmail.com</a></p>
         </div>
         <div className="flex flex-col justify-around mb-4 ">
           <Phone className="w-6 h-6 md:w-8 md:h-8 mx-auto mb-2" />
           <hr className="w-1/2 md:w-full m-auto bg-white my-2" />
-          <p className="m-0 md:text-lg">(818) 264-8057</p>
+          <p className="m-0 md:text-lg hover:underline"><a href="tel:1-818-264-8057">(818) 264-8057</a></p>
         </div>
         <div className="flex flex-col justify-around md:col-span-2 mb-4 ">
           <Instagram className="w-6 h-6 md:w-8 md:h-8 mx-auto mb-2" />
-          <p className="m-0 md:text-lg">@ecsyntheticservices</p>
+          <p className="m-0 md:text-lg hover:underline"><a href="https://www.instagram.com/ecsyntheticservices/" target="_blank" rel="noopener noreferrer">@ecsyntheticservices</a></p>
         </div>
       </div>
-      <p className="m-0 pb-10 text-2xl md:text-3xl">Serving all over Southern California</p>
+      <p className="m-0 pb-10 text-xl md:text-3xl">Serving all over Southern California</p>
     </section>
   </Layout >
 )
