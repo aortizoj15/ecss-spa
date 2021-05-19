@@ -7,6 +7,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["UA-197269089-1"],
+      },
+    },
+    {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
